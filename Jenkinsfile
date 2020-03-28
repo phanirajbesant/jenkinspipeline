@@ -3,7 +3,7 @@ pipeline {
 	stages {
 	stage('git fetch repository') {
 	steps {
-		git 'https://github.com/Rajeshg1709/webs1'
+		git 'https://github.com/phanirajbesant/jenkinspipeline'
 		}}
 	stage('run installer') {
 	steps {
